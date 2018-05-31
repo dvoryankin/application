@@ -101,7 +101,7 @@ GEM
       railties (>= 3.0.0)
     ffi (1.9.23)
     formatador (0.2.5)
-    gherkin (5.0.0)
+    gherkin (5.1.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     guard (2.14.2)
