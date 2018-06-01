@@ -44,10 +44,6 @@ group :development do
   gem 'rspec-rails'
   
   gem 'guard-rspec'
-  gem 'spork-rails'
-  gem 'guard-spork'
-  gem 'childprocess'
-  gem 'sqlite3'
 end
 
 group :test do
@@ -60,6 +56,14 @@ group :test do
   gem 'factory_bot_rails'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  
+  gem 'libnotify'
+end
+
+group :development, :test do
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :production do

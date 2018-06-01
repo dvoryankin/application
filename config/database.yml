@@ -20,7 +20,7 @@ test:
   adapter: postgresql
   database: testdb
   user: dmitry
-  password: pol
+  password: 00
   pool: 5
   timeout: 5000
 
