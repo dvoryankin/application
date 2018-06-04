@@ -320,5 +320,8 @@ DEPENDENCIES
   uglifier (>= 2.5.3)
   web-console
 
+RUBY VERSION
+   ruby 2.3.5p376
+
 BUNDLED WITH
    1.16.2
