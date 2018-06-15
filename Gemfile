@@ -43,7 +43,7 @@ group :development do
   
   gem 'spring'
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '3.7.2'
   
   gem 'guard-rspec'
 end
